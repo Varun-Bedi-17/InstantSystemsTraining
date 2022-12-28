@@ -1,0 +1,4 @@
+interface Downloader {
+    fun download()
+
+}
