@@ -1,4 +1,4 @@
-package introduction
+package suspendingfunction
 
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
@@ -18,7 +18,7 @@ fun main() {
 }
 
 // .We can't create local coroutine within suspended function. We can use runBlocking also in place of Coroutine Scope.
-// coroutineScope provides us our own scope. It must be inside any suspending function or ion coroutine.
+// coroutineScope provides us our own scope. It must be inside any suspending function or in coroutine.
 // Difference between runblocking and coroutine scope is that latter can be suspendable(join can cancel it).
 suspend fun suspendedFunction(time: Long) = coroutineScope {
     launch {
