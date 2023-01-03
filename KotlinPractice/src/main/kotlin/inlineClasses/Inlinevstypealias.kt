@@ -4,10 +4,10 @@ typealias str = String
 @JvmInline
 value class Inlinestr(val s: String)
 
-fun main(){
-    val aliasString : str = "string variable declared using type alias"
+fun main() {
+    val aliasString: str = "string variable declared using type alias"
     val InlineString = Inlinestr("string variable declared using inline class")
-    val string : String = "default string"
+    val string: String = "default string"
 
 
     fun acceptString(s: String) {}

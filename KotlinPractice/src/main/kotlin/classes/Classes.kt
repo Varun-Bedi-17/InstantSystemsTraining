@@ -48,20 +48,20 @@
 fun main() {
     var student = Student("Harish",16)
     println(student.id)
-    println(student.x)
+    println(student.age)
 }
 
 class Student(var name : String){
     var id = -1
-    val x : Int = 5
+    val age : Int = 5
     init{
         println("$name $id")
     }
-    constructor( n : String, id : Int, x : Int = 7): this(n){
+    constructor( n : String, id : Int, age : Int = 7): this(n){
 //        this.id = id            // we get student.id as -1
         this.id = id
         println(id)
-        println(x)
+        println(age)
 
     }
 }
