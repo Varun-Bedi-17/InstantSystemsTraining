@@ -1,10 +1,10 @@
 // Generics in method
 fun main() {
-    fun <T>printValue(list: List<T>): List<T> {
+    fun <T> printValue(list: List<T>): List<T> {
         for (ele in list) {
             println(ele)
         }
-    //        list.forEach{println(it)}
+        //        list.forEach{println(it)}
         return list
     }
 

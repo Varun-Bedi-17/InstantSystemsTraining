@@ -15,13 +15,13 @@ fun main(){
 
     // Observable Delegate
     println("===================== Observable Delegates =========================")
-    var ObservableD : Int by Delegates.observable(50){
+    var observableD : Int by Delegates.observable(50){
         property,old,new ->                                 // property contains metadata.
         println("Old Value $old")
         println("New Value $new")
     }
-    ObservableD = 60
-    ObservableD = 70
+    observableD = 60
+    observableD = 70
 
 
     // Vetoable = Used to provide some condition in obseravble deegate.

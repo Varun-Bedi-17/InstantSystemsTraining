@@ -1,6 +1,6 @@
 package interfacevsabstraction
 
-fun main(args: Array<String>) {
+fun main() {
     val s = Student()
 }
 
@@ -29,5 +29,6 @@ class Student : Person(){
     init{
         println(name2)
     }
+
 }
 

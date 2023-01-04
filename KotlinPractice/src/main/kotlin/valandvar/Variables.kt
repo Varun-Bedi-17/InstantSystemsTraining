@@ -11,7 +11,7 @@ fun main() {
 
     //val
     val d = 9
-    //    a += 1  Not possible
+    //    d += 1  Not possible
     println("$d")
 
 

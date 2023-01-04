@@ -1,4 +1,4 @@
-package dataClasses
+package dataclasses
 fun main() {
     val person1 = PersonDataClass("Harshit", 1, 7865)
     val person2 = PersonDataClass("Raj", 1, 7865)

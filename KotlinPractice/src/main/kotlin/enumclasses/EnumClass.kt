@@ -6,6 +6,7 @@ fun main() {
     month.printMonth()
 
 
+
     //Each enum objects has two properties : ordinal and name
     println(month.ordinal)
     println(month.name)

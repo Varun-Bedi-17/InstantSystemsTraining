@@ -8,7 +8,7 @@ import kotlin.reflect.KProperty
 fun main(){
     var firstname : String? by Delegate()
     var lastname : String? by Delegate()
-    firstname = "Mohit"
+    firstname = "Mohita"
     lastname = "Yadav"
     println(firstname)
     println(lastname)

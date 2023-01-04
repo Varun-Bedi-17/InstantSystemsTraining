@@ -2,7 +2,7 @@
 
 
 @JvmInline
-value class Name(val s: String) {
+value class InlineClass(val s: String) {
     init {
         require(s.length > 0) { }
     }
@@ -15,7 +15,7 @@ value class Name(val s: String) {
     }
 }
 fun main() {
-    val name = Name("Kotlin")
+    val name = InlineClass("Kotlin")
     name.greet() // method `greet` is called as a static method
     println(name.length) // property getter is called as a static method
 }
@@ -33,6 +33,6 @@ fun compute(x: Int) { }
 // add @Jvmname("Function") to call this function from java
 fun compute(x: UInt) { }             // Represented as
                                     // public static final void compute_fLmw4x8/* $FF was: compute-fLmw4x8*/(int x)
-                                    // IN BYTECODE. This is called mapping.
+                                    // IN BYTECODE. This is called mangling.
 
 

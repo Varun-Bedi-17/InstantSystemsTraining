@@ -36,7 +36,7 @@ interface NewInterface {
 
 
 class Student2 : Person2, NewInterface{
-    override var name : String = "ahj"
+    override var name : String = "Yadav"
 
     override fun eat() {
         println("override student eat")

@@ -32,7 +32,7 @@ class DerivedCaller: BaseCaller() {
 }
 
 fun main() {
-   // BaseCaller().call(BaseDelegation())   // "Base extension function in BaseCaller"
+//    BaseCaller().call(BaseDelegation())   // "Base extension function in BaseCaller"
     DerivedCaller().call(DerivedDelegation())  // "Base extension function in DerivedCaller"
-    //DerivedCaller().call(BaseDelegation())  // "Base extension function in DerivedCaller"
+//    DerivedCaller().call(BaseDelegation())  // "Base extension function in DerivedCaller"
 }

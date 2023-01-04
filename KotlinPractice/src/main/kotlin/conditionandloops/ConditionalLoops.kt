@@ -1,4 +1,4 @@
-package conditionAndLoops
+package conditionandloops
 fun main() {
     val describe = describe("str")
     println(describe)
