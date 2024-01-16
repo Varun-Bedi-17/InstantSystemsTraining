@@ -37,7 +37,6 @@ fun main(){
     vetoable = 20
     println(vetoable)                     // doesn't change as it is less than 30
 
-
 }
 
 val lazyvalue : String by lazy{

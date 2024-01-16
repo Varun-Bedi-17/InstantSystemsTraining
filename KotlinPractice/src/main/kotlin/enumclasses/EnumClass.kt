@@ -6,7 +6,6 @@ fun main() {
     month.printMonth()
 
 
-
     //Each enum objects has two properties : ordinal and name
     println(month.ordinal)
     println(month.name)
@@ -16,8 +15,7 @@ fun main() {
     val values : Array<Months> = Months.values()
     values.forEach { println(it) }
 
-    println(Months.valueOf("February"))// Throws IllegalArgumentException if value is not present in enum constants
-
+//    println(Months.valueOf("February"))// Throws IllegalArgumentException if value is not present in enum constants
 }
 
 enum class Months(val number : Int){

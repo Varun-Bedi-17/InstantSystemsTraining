@@ -1,6 +1,9 @@
-//By extension, generic types are invariant in Kotlin. This can be managed by the out and in
-// keywords. Invariance is the property by which a standard generic function/class already defined for
-// a particular data type, cannot accept or return another datatype. Any is the supertype of all other datatypes.
+/**
+ * By extension, generic types are invariant in Kotlin. This can be managed by the out and in
+ *  keywords. Invariance is the property by which a standard generic function/class already defined for
+ * a particular data type, cannot accept or return another datatype. Any is the supertype of all other datatypes.
+ */
+
 
 // Variance is of two types-
 //Declaration-site variance(using in and out)
