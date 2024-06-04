@@ -17,16 +17,17 @@ fun main() {
 
     //while
     var item = 0
-    var itemsWhile = arrayOf("Hello", "Varun")
+    val itemsWhile = arrayOf("Hello", "Varun")
     while (item < itemsWhile.size){
         println(itemsWhile[item])
         item+=1
     }
 
     // when
-    val y = 1
+    val y = 3
     when(y){
         1 -> println("1")
+        in 2..4 -> println("Between 2 to 4")
         is Int -> println("Int also")             // Not print it
     }
 }
