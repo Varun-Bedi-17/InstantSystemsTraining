@@ -6,11 +6,25 @@
 
 
 // Variance is of two types-
-//Declaration-site variance(using in and out)
-//Use-site variance: Type projection
+// Declaration-site variance(using in and out)
+// Use-site variance: Type projection
 
 
 fun main(){
+
+    /**
+     * Invariance
+     */
+    // By default, Kotlin generics are invariant, meaning that Box<A> is not a subtype of Box<B>,
+    // even if A is a subtype of B.
+    val intBox: CheckInvariance<Int> = CheckInvariance(1)
+    // val anyBox: CheckInvariance<Any> = intBox  // Error: Type mismatch
+
+    // ======================================================================================
+
+    /**
+     * Covariance
+     */
     val c : CheckVariance<Int> = CheckVariance(80, )
     println(c.getValue())
 
@@ -23,13 +37,20 @@ fun main(){
 
     // ======================================================================================
 
+    /**
+     * Contra Covariance
+     */
     // in keyword -> The in keyword in generic type means we can assign reference to its subtypes.
     // The in keyword can be used only on the parameter type that is consumed.
     val check = CheckVarianceIn<Number>("GFGH")
     println(check.getValueIn())
-    val check2: CheckVarianceIn<Int> = check      // Without in it will throw error.
+    val check2: CheckVarianceIn<Int> = check      // Without in, it will throw error.
 
-    //    val check3 : CheckVarianceIn<Int> = CheckVarianceIn<Number>("lkj")    // Contracovariance
+    //    val check3 : CheckVarianceIn<Int> = CheckVarianceIn<Number>("lkj")    // Contra covariance
+}
+
+class CheckInvariance<T>(val t: T){
+    fun getValue() = t                    // Can't use T in parameter of function like getValue( t2 :T).
 }
 
 class CheckVariance<out T>(val t: T){
