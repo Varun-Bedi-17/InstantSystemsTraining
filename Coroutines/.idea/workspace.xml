@@ -5,65 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9238ef73-2dda-4e42-b362-98c858e96297" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking$compObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking$compObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking$obje.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking$obje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Checking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/CompanionObjectKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/CompanionObjectKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/DelegationPropertiesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/DelegationPropertiesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/EnumClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/EnumClassKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/ExtensionFunctionAccessKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/ExtensionFunctionAccessKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/InlineClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/InlineClassKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Inlinestr.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Inlinestr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/InlinevstypealiasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/InlinevstypealiasKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/META-INF/KotlinPractice.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Months.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Months.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/SealedClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/SealedClassKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Shape$NotAshape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Shape$NotAshape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/StandardDelegatesKt$main$$inlined$observable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/StandardDelegatesKt$main$$inlined$observable$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/StandardDelegatesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/StandardDelegatesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/TypeProjectionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/TypeProjectionsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/conditionAndLoops/ConditionalLoopsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/conditionAndLoops/ConditionalLoopsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/dataClasses/DataClassesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/dataClasses/DataClassesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/dataClasses/PersonDataClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/dataClasses/PersonDataClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/interfacevsabstraction/AbstractionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/interfacevsabstraction/AbstractionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/interfacevsabstraction/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/out/production/KotlinPractice/interfacevsabstraction/Student2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/conditionAndLoops/ConditionalLoops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/conditionandloops/ConditionalLoops.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/dataClasses/DataClasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/dataclasses/DataClasses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/delegation/DelegationProperties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/delegation/DelegationProperties.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/delegation/StandardDelegates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/delegation/StandardDelegates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/destructingDeclarations/DestructingDeclaration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/destructingdeclarations/DestructingDeclaration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/enumClasses/EnumClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/enumclasses/EnumClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionFunction/ExtensionFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionfunction/ExtensionFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionFunction/ExtensionFunctionAccess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionfunction/ExtensionFunctionAccess.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionFunction/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/extensionfunction/Extensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/functionalInterface/FunInterfaces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/functionalinterface/FunInterfaces.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/generics/Method UsingGenerics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/generics/Method UsingGenerics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/helloWorld/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/helloworld/HelloWorld.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineClasses/InlineClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineclasses/InlineClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineClasses/InlineUse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineclasses/InlineUse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineClasses/Inlinevstypealias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/inlineclasses/InlineVsTypeAlias.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/interfaceVsAbstraction/Abstraction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/interfacevsabstraction/Abstraction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/interfaceVsAbstraction/Interface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/interfacevsabstraction/Interface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/listAndTreeMap/Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/listandtreemap/Collections.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/nestedAndInnerClass/NestedAndInner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/nestedandinnerclass/NestedAndInner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/nullSafety/NullSafety.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/nullsafety/NullSafety.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/object/CompanionObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/object/CompanionObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/operatorOverloading/BinaryOperators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/operatoroverloading/BinaryOperators.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/operatorOverloading/IncAndDec.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/operatoroverloading/IncAndDec.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopeFunctions/Also.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopefunctions/Also.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopeFunctions/Apply.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopefunctions/Apply.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopeFunctions/Let.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopefunctions/Let.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopeFunctions/Run.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopefunctions/Run.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopeFunctions/With.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/scopefunctions/With.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/sealedClasses/SealedClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/sealedclasses/SealedClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/tailRecursionFunction/TailRecursive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/tailrecursionfunction/TailRecursive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/thisExpression/This.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/thisexpression/This.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/valAndVar/Variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/valandvar/Variables.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/visibilityModifier/VisibilityModifiers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../KotlinPractice/src/main/kotlin/visibilitymodifier/VisibilityModifiers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/suspendingfunction/SuspendedFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/suspendingfunction/SuspendedFunction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +35,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Coroutines" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -120,7 +70,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/VarunBedi/Documents/InstantSystemsTraining"
+    "last_opened_file_path": "D:/D/InstantSystemsTraining",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">

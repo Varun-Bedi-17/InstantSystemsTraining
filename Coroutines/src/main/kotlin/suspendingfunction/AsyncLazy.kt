@@ -7,7 +7,12 @@ import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
 
 /**
- * We can made async lazy by setting its start parameter to CoroutineStart.lazy.
+ * We can make async lazy by setting its start parameter to CoroutineStart.lazy.
+ */
+
+/**
+ * When you use CoroutineStart.LAZY with async, the coroutine does not start until it is explicitly started or awaited.
+ * This can be useful for controlling the exact timing of the coroutine's execution.
  */
 suspend fun addLazy(x: Int, y: Int): Int {
     delay(500)
@@ -29,5 +34,5 @@ fun main() = runBlocking{
         // If we don't use start() and directly call await() then it will run sequentially.
         println("Sum is ${sumUsingLazy.await()} and difference is ${differenceUsingLazy.await()}")
     }
-    println("Time taken using Coroutine : ${timeUsinglazy}")
+    println("Time taken using Coroutine : $timeUsinglazy")
 }

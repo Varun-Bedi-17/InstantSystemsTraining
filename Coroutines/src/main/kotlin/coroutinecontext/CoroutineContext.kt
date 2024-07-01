@@ -3,6 +3,21 @@ package coroutinecontext
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext
 
+/**
+ * The coroutine context is a set of elements that define the behavior of a coroutine.
+ * It includes elements such as the dispatcher that determines the thread where the coroutine runs,
+ * the job that controls its lifecycle, and other elements like coroutine names or custom elements.
+ *
+ * Key Components of Coroutine Context:
+ * - Dispatcher: Determines the thread or thread pool where the coroutine will be executed.
+ *    - Dispatcher.DEFAULT
+ *    - Dispatcher.UNCONFINED
+ *    - Dispatcher.IO
+ *    - Dispatcher.MAIN
+ * - Job: Controls the lifecycle of the coroutine, including its cancellation.
+ * - CoroutineName: Assigns a name to the coroutine, useful for debugging.
+ * - CoroutineExceptionHandler: Handles uncaught exceptions in the coroutine.
+ */
 fun main(){
     runBlocking {
         launch{

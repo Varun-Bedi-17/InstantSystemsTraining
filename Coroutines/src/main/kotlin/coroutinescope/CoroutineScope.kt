@@ -5,7 +5,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
 fun main() {
-    // this -> coroutinescope instance
+    // this -> coroutine scope instance
     runBlocking {
         println("runBlocking : $this}")
 

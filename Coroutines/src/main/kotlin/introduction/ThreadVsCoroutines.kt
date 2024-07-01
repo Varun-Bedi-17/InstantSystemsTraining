@@ -1,9 +1,6 @@
 package introduction
 
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 import kotlin.concurrent.thread
 
 fun main() {
@@ -23,8 +20,20 @@ fun main() {
         delay(500)                   // It blocks only coroutine not whole thread.
         println("launch coroutine ends : ${Thread.currentThread().name}")
     }                               // If we don't use the thread.sleep in thread then this will not print.
-    // Output - Main starts : main
-    //          Main ends : main
+
+    // Async execute code parallel, meaning both async can be executed in any order, all other launch and runblocking works sequentially.
+    // But the code under async block run sequentially, async execute parallel if we have different async blocks.
+    GlobalScope.async {
+        println("async coroutine starts : ${Thread.currentThread().name}")
+        delay(500)                   // It blocks only coroutine not whole thread.
+        println("async coroutine ends : ${Thread.currentThread().name}")
+    }
+
+    GlobalScope.async {
+        println("async2 coroutine starts : ${Thread.currentThread().name}")
+        delay(500)                   // It blocks only coroutine not whole thread.
+        println("async2 coroutine ends : ${Thread.currentThread().name}")
+    }
 
     runBlocking {
         println("runblocking coroutine : ${Thread.currentThread().name}")
