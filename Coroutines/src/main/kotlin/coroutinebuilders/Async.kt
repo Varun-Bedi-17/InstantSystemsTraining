@@ -1,9 +1,6 @@
 package coroutinebuilders
 
-import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.async
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 
 /**
  * async - It will run in its immediate parent thread and must be defined in coroutine.
@@ -12,16 +9,16 @@ import kotlinx.coroutines.runBlocking
  */
 
 fun main() = runBlocking {
-    println("Main starts : ${Thread.currentThread().name}")
-
+    println("Before async block : ${Thread.currentThread().name}")
 
     val jobDeferred: Deferred<String> = async {         // Main thread
-        println("async coroutine starts : ${Thread.currentThread().name}")
+        println("On async  starts : ${Thread.currentThread().name}")
         delay(500)
-        println("async coroutine ends : ${Thread.currentThread().name}")
+        println("On async ends : ${Thread.currentThread().name}")
         "Deferred object"
     }
 
+    println("After async block : ${Thread.currentThread().name}")
     // It can call all functions of Job type.
     //    println(jobDeferred.isActive)
     //    jobDeferred.cancel()

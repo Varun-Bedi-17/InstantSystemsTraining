@@ -13,16 +13,16 @@ import kotlinx.coroutines.*
  * */
 
 fun main() = runBlocking{
-    println("Main starts : ${Thread.currentThread().name}")
-
+    println("Before launch block : ${Thread.currentThread().name}")
 
     val job : Job = launch {         // Main thread
-        println("launch coroutine starts : ${Thread.currentThread().name}")
+        println("On launch starts : ${Thread.currentThread().name}")
         delay(500)
-        println("launch coroutine ends : ${Thread.currentThread().name}")
+        println("On launch ends : ${Thread.currentThread().name}")
     }
 
-    println(job.isActive)                                   // check for coroutine is cooperative or not.
+    println("After launch block : ${Thread.currentThread().name}")
+
     // job.cancel()                  // To cancel launch coroutine if it is cooperative.
     job.join()                   // Code after this line will execute after the complete execution of coroutine.
     println("Main ends : ${Thread.currentThread().name}")

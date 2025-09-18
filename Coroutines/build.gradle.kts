@@ -17,6 +17,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.8.0")
+    implementation(kotlin("stdlib"))
 }
 
 tasks.test {
